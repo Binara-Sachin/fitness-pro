@@ -38,7 +38,8 @@ namespace FitnessProWebApp.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				var resut = await _iAPIClientService.Add(cheatMeal, _subURL);
+                cheatMeal.CalculateCaloryGain();
+                var resut = await _iAPIClientService.Add(cheatMeal, _subURL);
 				TempData["success"] = "Cheat Meal added successfully";
 				return RedirectToAction(nameof(Index));
 			}
@@ -59,7 +60,8 @@ namespace FitnessProWebApp.Controllers
 			{
 				try
 				{
-					var resut = await _iAPIClientService.Update(cheatMeal, _subURL);
+                    cheatMeal.CalculateCaloryGain();
+                    var resut = await _iAPIClientService.Update(cheatMeal, _subURL);
 				}
 				catch (Exception ex)
 				{

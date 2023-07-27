@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\FitnessProWebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\css\\lux.css",
+      "PackagePath": "staticwebassets\\css\\lux.css"
+    },
+    {
       "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\images\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\images\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-2.jpg"
     },
     {
       "Id": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\wwwroot\\js\\site.js",

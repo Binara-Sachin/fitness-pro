@@ -38,6 +38,7 @@ namespace FitnessProWebApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                workout.CalculateCaloryBurn();
                 var resut = await _iAPIClientService.Add(workout, _subURL);
 				TempData["success"] = "Workout added successfully";
 				return RedirectToAction(nameof(Index));
@@ -59,6 +60,7 @@ namespace FitnessProWebApp.Controllers
             {
                 try
                 {
+                    workout.CalculateCaloryBurn();
                     var resut = await _iAPIClientService.Update(workout, _subURL);
                 }
                 catch (Exception ex)

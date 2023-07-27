@@ -2,21 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Fitness Master</h1>
+<div class="home-elements-align">
+    <h1 class="display-3">Fitness Pro</h1>
+    <h1 class="display-10">Naver Give Up</h1>
     <br />
     <br />
-    <a asp-controller="Workout" asp-action="Create" class="btn btn-primary">
-        <i class="bi bi-plus-circle"></i> &nbsp; Add Workout
-    </a>
+    <div class="col">
+        <a asp-controller="Workout" asp-action="Index" class="btn btn-primary btn-lg">Workout List</a>
+        <a asp-controller="CheatMeal" asp-action="Index" class="btn btn-primary btn-lg">Cheat Meal List</a>
+    </div>
     <br />
-    <br />
-    <a asp-controller="CheatMeal" asp-action="Create" class="btn btn-primary">
-        <i class="bi bi-plus-circle"></i> &nbsp; Add Cheat Meal
-    </a>
-    <br />
-    <br />
-    <a asp-controller="Report" asp-action="Index" class="btn btn-primary">
-        <i class="bi bi-plus-circle"></i> &nbsp; Generate Report
-    </a>
+    <div class="col">
+        <a asp-controller="Workout" asp-action="Create" class="btn btn-primary btn-lg">Add Workout</a>
+        <a asp-controller="CheatMeal" asp-action="Create" class="btn btn-primary btn-lg">Add Cheat Meal</a>
+    </div>
 </div>
