@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kOstrD+nsOCLaXpuMBdFVqfKOMexJNUdQx0sNGpBhdMnYQQPFPY3vaJTsfqKp1O135nmS4EB4gn5bbFmgPl6UA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\DotNetDev\\Projects\\FitnessPro\\FitnessProWebApp\\FitnessProWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

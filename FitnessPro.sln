@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheatMealAPI", "CheatMealAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{42DE0E9F-7E99-42F6-AE29-F5841FA587C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessProWebApp", "FitnessProWebApp\FitnessProWebApp.csproj", "{D3947B53-A0E0-4D29-A6E0-8AAF239F6A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{42DE0E9F-7E99-42F6-AE29-F5841FA587C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42DE0E9F-7E99-42F6-AE29-F5841FA587C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42DE0E9F-7E99-42F6-AE29-F5841FA587C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3947B53-A0E0-4D29-A6E0-8AAF239F6A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3947B53-A0E0-4D29-A6E0-8AAF239F6A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3947B53-A0E0-4D29-A6E0-8AAF239F6A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3947B53-A0E0-4D29-A6E0-8AAF239F6A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
